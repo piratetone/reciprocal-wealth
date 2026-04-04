@@ -144,16 +144,13 @@ export default function ConceptBHome() {
       {/* Our Story + Meet the Founders */}
       <section className="py-20 md:py-24">
         <div className="mx-auto max-w-[1200px] px-6">
-          <FadeIn className="max-w-[640px]">
-            <SectionLabel>Our Story</SectionLabel>
-            <div className="mt-6 space-y-4">
+          <FadeIn className="mx-auto max-w-[40rem]">
+            <div className="text-center">
+              <SectionLabel>Our Story</SectionLabel>
+            </div>
+            <div className="mt-8 space-y-5 text-left text-[15px] md:text-base text-near-black/85 leading-[1.65] text-pretty">
               {ourStory.split("\n\n").map((paragraph, i) => (
-                <p
-                  key={i}
-                  className="text-sm md:text-base text-near-black/80 leading-relaxed"
-                >
-                  {paragraph}
-                </p>
+                <p key={i}>{paragraph}</p>
               ))}
             </div>
           </FadeIn>
