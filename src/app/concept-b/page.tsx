@@ -62,7 +62,7 @@ export default function ConceptBHome() {
         </div>
       </section>
 
-      {/* Our Mission — centered */}
+      {/* Our Mission â centered */}
       <section className="py-20 md:py-24">
         <div className="mx-auto max-w-[1200px] px-6">
           <FadeIn className="max-w-[640px] mx-auto text-center">
