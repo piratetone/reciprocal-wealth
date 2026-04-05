@@ -109,10 +109,10 @@ export default function ConceptBHome() {
       <section className="bg-deep-forest py-20 md:py-24">
         <div className="mx-auto max-w-[1200px] px-6">
           <FadeIn>
-            <span className="inline-block text-[14px] font-semibold uppercase tracking-[0.1em] text-forest-50 mb-4">
+            <span className="inline-block text-base md:text-lg font-semibold uppercase tracking-[0.1em] text-forest-50 mb-4">
               Why Reciprocal
             </span>
-            <h2 className="text-2xl md:text-[28px] font-medium tracking-[-0.4px] text-white">
+            <h2 className="text-3xl md:text-[36px] font-medium tracking-[-0.4px] text-white">
               What makes us different
             </h2>
           </FadeIn>
@@ -154,7 +154,7 @@ export default function ConceptBHome() {
           </FadeIn>
 
           <FadeIn className="mt-16">
-            <h2 className="text-center text-2xl md:text-[28px] font-medium tracking-[-0.4px] text-near-black mb-12">
+            <h2 className="text-center text-3xl md:text-[36px] font-medium tracking-[-0.4px] text-near-black mb-12">
               Meet the Founders
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
@@ -202,7 +202,7 @@ export default function ConceptBHome() {
           <FadeIn className="max-w-[640px] mx-auto">
             <div className="text-center mb-10">
               <SectionLabel>Talk to Us</SectionLabel>
-              <h2 className="mt-4 text-2xl md:text-[28px] font-medium tracking-[-0.4px] text-near-black">
+              <h2 className="mt-4 text-3xl md:text-[36px] font-medium tracking-[-0.4px] text-near-black">
                 Contact us
               </h2>
               <p className="mt-3 text-sm text-stone">

@@ -9,7 +9,7 @@ export default function SectionLabel({
 }: SectionLabelProps) {
   return (
     <span
-      className={`inline-block text-[14px] font-semibold uppercase tracking-[0.1em] text-forest ${className}`}
+      className={`inline-block text-base md:text-lg font-semibold uppercase tracking-[0.1em] text-forest ${className}`}
     >
       {children}
     </span>

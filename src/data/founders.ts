@@ -14,7 +14,7 @@ export const founders: Founder[] = [
     title: "Co-Founder & Managing Partner",
     email: "sam@reciprocalwealth.com",
     phone: "617-256-4097",
-    image: "/images/sam-chud.png",
+    image: "/images/sam-chud-v2.jpg",
     shortBio:
       "Sam brings over a decade of operating experience across marketing, sales, commercial strategy, and corporate strategy at Keurig Dr Pepper, a Fortune 500 company. He holds a BBA from Emory University's Goizueta Business School and is currently completing his Executive MBA at Northwestern's Kellogg School of Management.",
     bio: `Sam Chud was introduced to investments back in middle school when he joined the Stock Club run by Mr. Corcoran. Throughout his schooling, Sam continued to demonstrate an interest in all aspects of business, including finance, culminating in a Bachelor of Business Administration (BBA) from Goizueta Business School at Emory University in Atlanta, GA.
