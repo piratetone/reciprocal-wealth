@@ -2,12 +2,10 @@ import Link from "next/link";
 import Image from "next/image";
 import FadeIn from "@/components/shared/FadeIn";
 import SectionLabel from "@/components/shared/SectionLabel";
-import FAQAccordion from "@/components/shared/FAQAccordion";
 import ContactForm from "@/components/shared/ContactForm";
 import { values } from "@/data/values";
 import { differentiators } from "@/data/differentiators";
 import { founders, ourStory } from "@/data/founders";
-import { faqs } from "@/data/faqs";
 import { siteConfig } from "@/data/siteConfig";
 
 export default function ConceptBHome() {
@@ -38,9 +36,9 @@ export default function ConceptBHome() {
         <div className="relative mx-auto max-w-[1200px] px-6">
           <div className="max-w-[720px]">
             <h1 className="text-[36px] md:text-[42px] font-light leading-[1.15] tracking-[-1.5px] text-white">
-              Spend less time worrying about your finances.
+              Spend less time worrying about finances.
               <br />
-              More time on what matters.
+              More time on what matters most to you.
             </h1>
             <p className="mt-6 text-base md:text-lg text-white/60 leading-relaxed max-w-[540px]">
               Reciprocal Wealth offers personalized wealth management for
@@ -64,16 +62,16 @@ export default function ConceptBHome() {
         </div>
       </section>
 
-      {/* Intro */}
+      {/* Our Mission — centered */}
       <section className="py-20 md:py-24">
         <div className="mx-auto max-w-[1200px] px-6">
-          <FadeIn className="max-w-[640px]">
+          <FadeIn className="max-w-[640px] mx-auto text-center">
             <SectionLabel>Our Mission</SectionLabel>
             <p className="mt-6 text-xl md:text-2xl font-light text-near-black leading-relaxed tracking-[-0.3px]">
               &ldquo;Help you provide for yourself and your loved ones in the
               present while creating a safe and secure future.&rdquo;
             </p>
-            <p className="mt-6 text-sm text-stone leading-relaxed max-w-[480px]">
+            <p className="mt-6 text-sm text-stone leading-relaxed">
               Reciprocal Wealth is a fee-only wealth management firm serving
               time-pressed working professionals. We keep our approach
               straightforward, transparent, and focused on what matters to you.
@@ -111,7 +109,7 @@ export default function ConceptBHome() {
       <section className="bg-deep-forest py-20 md:py-24">
         <div className="mx-auto max-w-[1200px] px-6">
           <FadeIn>
-            <span className="inline-block text-[11px] font-semibold uppercase tracking-[0.1em] text-forest-50 mb-4">
+            <span className="inline-block text-[14px] font-semibold uppercase tracking-[0.1em] text-forest-50 mb-4">
               Why Reciprocal
             </span>
             <h2 className="text-2xl md:text-[28px] font-medium tracking-[-0.4px] text-white">
@@ -198,37 +196,12 @@ export default function ConceptBHome() {
         </div>
       </section>
 
-      {/* FAQs */}
-      <section className="py-20 md:py-24">
-        <div className="mx-auto max-w-[1200px] px-6">
-          <div className="max-w-[720px] mx-auto">
-            <FadeIn className="text-center">
-              <SectionLabel>Frequently Asked Questions</SectionLabel>
-              <h2 className="mt-4 text-2xl md:text-[28px] font-medium tracking-[-0.4px] text-near-black">
-                Questions we hear often
-              </h2>
-            </FadeIn>
-            <FadeIn className="mt-10">
-              <FAQAccordion faqs={faqs.slice(0, 6)} />
-            </FadeIn>
-            <FadeIn className="mt-8 text-center">
-              <Link
-                href="/concept-b/faqs"
-                className="text-sm text-forest font-medium hover:text-deep-forest transition-colors"
-              >
-                View all FAQs &rarr;
-              </Link>
-            </FadeIn>
-          </div>
-        </div>
-      </section>
-
       {/* Contact */}
       <section className="bg-warm-gray py-20 md:py-24">
         <div className="mx-auto max-w-[1200px] px-6">
           <FadeIn className="max-w-[640px] mx-auto">
             <div className="text-center mb-10">
-              <SectionLabel>Get in Touch</SectionLabel>
+              <SectionLabel>Talk to Us</SectionLabel>
               <h2 className="mt-4 text-2xl md:text-[28px] font-medium tracking-[-0.4px] text-near-black">
                 Contact us
               </h2>
